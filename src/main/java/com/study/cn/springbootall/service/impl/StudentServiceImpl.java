@@ -1,8 +1,8 @@
 package com.study.cn.springbootall.service.impl;
 
-import com.study.cn.springbootall.entity.Student;
 import com.study.cn.springbootall.exception.BusinessException;
-import com.study.cn.springbootall.repository.StudentRepository;
+import com.study.cn.springbootall.other.entity.Student;
+import com.study.cn.springbootall.other.repository.StudentRepository;
 import com.study.cn.springbootall.service.StudentService;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +25,6 @@ public class StudentServiceImpl implements StudentService {
      */
     @Override
     public Student findByIdThrow(Long primaryId){
-        return repository.findById(primaryId).orElseThrow(()->new BusinessException("没有学生信息"));
+        return  repository.findById(primaryId).orElseThrow(()->new BusinessException("没有该学生对象"));
     }
 }

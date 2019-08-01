@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 @Data
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-abstract class BaseEntity implements Serializable {
+public abstract class BaseEntity implements Serializable {
     /**
      * 主键
      */

@@ -1,5 +1,6 @@
-package com.study.cn.springbootall.entity;
+package com.study.cn.springbootall.other.entity;
 
+import com.study.cn.springbootall.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,7 +14,7 @@ import javax.persistence.Entity;
 @Getter
 @Setter
 @Entity
-public class Student extends  BaseEntity{
+public class Student extends BaseEntity {
     /**
      * 姓名
      */

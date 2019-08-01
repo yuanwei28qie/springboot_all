@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 /**
  * @author huwei
  * @date 2019年7月21日11点32分
+ * 注解EnableJpaAuditing 更新jpa的实时间
  */
 @EnableJpaAuditing
 @SpringBootApplication

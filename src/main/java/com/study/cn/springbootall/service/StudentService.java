@@ -1,6 +1,6 @@
 package com.study.cn.springbootall.service;
 
-import com.study.cn.springbootall.entity.Student;
+import com.study.cn.springbootall.other.entity.Student;
 
 /**
  * @author huWei
